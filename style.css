@@ -1,12 +1,11 @@
 body {
-  background-color: black;
+  background-color: rosybrown;
   color: bisque;
   /* position: absolute; */
   min-height: 100%;
 }
 header {
-  border-bottom: 5px double firebrick;
-  text-align: center;
+  border-bottom: 5px double bisque;
 }
 header ul {
   width: 45%;
@@ -14,11 +13,19 @@ header ul {
   padding-top: 25px;
   font-size: 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style: none;
   margin: auto;
 }
-
+header ul li {
+  border: solid;
+  padding: 2%;
+  border-radius: 5px;
+}
+header ul li:hover {
+  transform: scale(1.5);
+  opacity: 0.7;
+}
 .input {
   padding-top: 50px;
   text-align: center;
@@ -34,6 +41,9 @@ header ul {
 }
 .search-btn {
   font-size: 25px;
+}
+.search-btn:hover {
+  opacity: 0.5;
 }
 .input .search:hover {
   opacity: 0.5;
@@ -53,13 +63,13 @@ img {
   width: 22%;
   padding: 10px;
   border-radius: 25px;
-  border: 5px solid firebrick;
+  border: 5px solid bisque;
   display: block;
   text-align: center;
   height: 410px;
 }
 .sample .btn1:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 
   opacity: 0.5;
 }
@@ -67,12 +77,13 @@ button {
   background-color: bisque;
 }
 .about {
-  border: 5px solid firebrick;
-  border-radius: 15px;
+  /* border: 5px solid firebrick;
+  border-radius: 15px; */
   font-size: 20px;
+  text-align: center;
 }
 footer ul {
-  border-top: 5px double firebrick;
+  border-top: 5px double bisque;
   list-style: none;
   font-size: 25px;
   display: flex;
@@ -83,34 +94,12 @@ footer ul {
   width: 100%;
   text-align: center;
 }
+footer ul li:hover {
+  transform: scale(1.2);
+}
 a {
   color: blanchedalmond;
 }
 
-@media screen and (max-width: 375px) {
-  body {
-    background-color: brown;
-    color: black;
-  }
-  .input .search {
-    background-color: bisque;
-  }
-  button {
-    background-color: bisque;
-  }
-  .sample .btn1 {
-    border-color: black;
-  }
-  .about {
-    border-color: black;
-  }
-  header ul {
-    border-color: black;
-  }
-  footer ul {
-    border-color: black;
-  }
-  a {
-    color: blanchedalmond;
-  }
+@media screen and (max-width: 412%) {
 }
