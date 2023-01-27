@@ -6,6 +6,7 @@ body {
 }
 header {
   border-bottom: 5px double bisque;
+  position: relative;
 }
 header ul {
   width: 45%;
