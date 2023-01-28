@@ -45,6 +45,7 @@ header ul li:hover {
 }
 .search-btn:hover {
   opacity: 0.5;
+  transform: scale(1.2);
 }
 .input .search:hover {
   opacity: 0.5;
@@ -69,9 +70,8 @@ img {
   text-align: center;
   height: 410px;
 }
-.sample .btn1:hover {
-  transform: scale(1.1);
-
+#verse1:hover {
+  transform: scale(1.5);
   opacity: 0.5;
 }
 button {
@@ -104,10 +104,10 @@ button {
   margin: auto;
 }
 .Input-prayer {
-  justify-content: center;
-  display: flex;
+  display: block;
   padding-top: 117px;
   padding-bottom: 100px;
+  text-align: center;
 }
 .Input-prayer .prayer-request {
   font-size: x-large;
