@@ -3,6 +3,16 @@ let verseImg1 = document.getElementById(`verseImg1`);
 let verse1Change = document.getElementById("verse1Change");
 let firstVerse = document.getElementById(`firstVerse`);
 
+var imgArray = [
+  "./img/father verse.webp",
+  "img/img1.jpg",
+  "./img/Mother verse.jpeg",
+  "./img/Prayer for son.webp",
+  "./img/SIster verse.jpg",
+  "./img/Verse.jpg",
+  "./img/Wife verse.webp",
+];
+
 clickMe.addEventListener(`click`, function (e) {
   let chngImg = verseImg1.getAttribute(`src`);
   const h1 = verse1Change;

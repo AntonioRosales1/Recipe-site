@@ -55,7 +55,7 @@ img {
 }
 .sample {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 20px;
   width: 73%;
   margin: 125px auto;
@@ -81,6 +81,19 @@ button {
 .verse h1 {
   text-align: center;
 }
+.verse .verse-btn {
+  font-size: 125%;
+  display: flex;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: bisque;
+
+  margin: auto;
+}
+.verse-btn:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
 .about {
   /* border: 5px solid firebrick;
   border-radius: 15px; */
@@ -90,6 +103,16 @@ button {
   width: max-content;
   margin: auto;
 }
+.Input-prayer {
+  justify-content: center;
+  display: flex;
+  padding-top: 117px;
+  padding-bottom: 100px;
+}
+.Input-prayer .prayer-request {
+  font-size: x-large;
+}
+
 footer ul {
   border-top: 5px double bisque;
   list-style: none;
